@@ -252,7 +252,7 @@ Deno.test(
 );
 
 Deno.test(
-  "serve should not throw if abort when the server is already closed",
+  "serveListener should not throw if abort when the server is already closed",
   async () => {
     const listenOptions = {
       hostname: "localhost",
